@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\bin\Debug\Hw_Form_Arregation.exe.config
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\bin\Debug\Hw_Form_Arregation.exe
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\bin\Debug\Hw_Form_Arregation.pdb
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Hw_Form_Arregation.resources
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Properties.Resources.resources
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.exe
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.pdb
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Hw_StructSaveGrades.resources
+C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Hw_Students_Grade.resources
