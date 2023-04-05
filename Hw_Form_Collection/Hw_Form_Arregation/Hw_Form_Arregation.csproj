@@ -47,11 +47,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hw_ClassCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_ClassCalculate.Designer.cs">
+      <DependentUpon>Hw_ClassCalculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_ForDoWhile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_ForDoWhile.Designer.cs">
+      <DependentUpon>Hw_ForDoWhile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hw_Form_Arregation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Hw_Form_Arregation.Designer.cs">
       <DependentUpon>Hw_Form_Arregation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_Method.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_Method.Designer.cs">
+      <DependentUpon>Hw_Method.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_NotePad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_NotePad.Designer.cs">
+      <DependentUpon>Hw_NotePad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_Painter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_Painter.Designer.cs">
+      <DependentUpon>Hw_Painter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_PictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_PictureViewer.Designer.cs">
+      <DependentUpon>Hw_PictureViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_ScreenSaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_ScreenSaver.Designer.cs">
+      <DependentUpon>Hw_ScreenSaver.cs</DependentUpon>
     </Compile>
     <Compile Include="Hw_StructSaveGrades.cs">
       <SubType>Form</SubType>
@@ -65,16 +107,55 @@
     <Compile Include="Hw_Students_Grade.Designer.cs">
       <DependentUpon>Hw_Students_Grade.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hw_Students_Grade_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_Students_Grade_List.Designer.cs">
+      <DependentUpon>Hw_Students_Grade_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_XOGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_XOGame.Designer.cs">
+      <DependentUpon>Hw_XOGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Hw_ClassCalculate.resx">
+      <DependentUpon>Hw_ClassCalculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_ForDoWhile.resx">
+      <DependentUpon>Hw_ForDoWhile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hw_Form_Arregation.resx">
       <DependentUpon>Hw_Form_Arregation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_Method.resx">
+      <DependentUpon>Hw_Method.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_NotePad.resx">
+      <DependentUpon>Hw_NotePad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_Painter.resx">
+      <DependentUpon>Hw_Painter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_PictureViewer.resx">
+      <DependentUpon>Hw_PictureViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_ScreenSaver.resx">
+      <DependentUpon>Hw_ScreenSaver.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_StructSaveGrades.resx">
       <DependentUpon>Hw_StructSaveGrades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_Students_Grade.resx">
       <DependentUpon>Hw_Students_Grade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_Students_Grade_List.resx">
+      <DependentUpon>Hw_Students_Grade_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_XOGame.resx">
+      <DependentUpon>Hw_XOGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,6 +165,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -97,6 +179,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iu_28.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

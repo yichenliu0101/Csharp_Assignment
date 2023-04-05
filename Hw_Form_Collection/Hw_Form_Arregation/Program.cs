@@ -16,7 +16,7 @@ namespace Hw_Form_Arregation
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Hw_Students_Grade());
+            Application.Run(new Hw_PictureViewer());
         }
     }
 }

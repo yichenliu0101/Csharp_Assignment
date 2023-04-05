@@ -175,6 +175,7 @@ namespace Hw_Form_Arregation
             btnRandomAdd20.Enabled = true;
             btnCalculate.Enabled = false;
         }
+
         private void btnRandomAdd20_Click(object sender, EventArgs e)
         {
             btnCalculate.Enabled = true;
