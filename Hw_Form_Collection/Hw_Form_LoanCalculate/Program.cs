@@ -16,7 +16,7 @@ namespace Hw_Form_LoanCalculate
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Hw_Form_LoanCalculate());
+            Application.Run(new Hw_LoanCalculate());
         }
     }
 }

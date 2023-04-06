@@ -163,7 +163,7 @@ namespace Hw_Form_Arregation
         }
         private void btnEsc_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
         private void Hw_XOGame_KeyDown(object sender, KeyEventArgs e)
         {

@@ -16,7 +16,7 @@ namespace Hw_Form_Pos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Hw_Form_Pos());
+            Application.Run(new Hw_Pos());
         }
     }
 }

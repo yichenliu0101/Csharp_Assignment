@@ -31,6 +31,15 @@ namespace Hw_Form_Arregation
             listViewAvg.Columns.Add("國文", 40);
             listViewAvg.Columns.Add("英文", 40);
             listViewAvg.Columns.Add("數學", 40);
+
+            SearchOutput.Columns.Add("姓名", 75);
+            SearchOutput.Columns.Add("國文", 40);
+            SearchOutput.Columns.Add("英文", 40);
+            SearchOutput.Columns.Add("數學", 40);
+            SearchOutput.Columns.Add("總分", 50);
+            SearchOutput.Columns.Add("平均", 50);
+            SearchOutput.Columns.Add("最低", 65);
+            SearchOutput.Columns.Add("最高", 65);
         }
 
         private void Hw_Students_Grade_List_Load(object sender, EventArgs e)
@@ -52,6 +61,8 @@ namespace Hw_Form_Arregation
         #endregion
         private void btnAddStudent_Click(object sender, EventArgs e)
         {
+            listViewAll.Visible = true;
+            SearchOutput.Visible = false;
             if (txtName.Text == "")
             {
                 MessageBox.Show("請輸入姓名");
@@ -91,6 +102,8 @@ namespace Hw_Form_Arregation
         }
         private void btnResetAll_Click(object sender, EventArgs e)
         {
+            listViewAll.Visible = true;
+            SearchOutput.Visible = false;
             listViewAll.Items.Clear();
             listViewAvg.Items.Clear();
             ChineseScore.Total = 0;
@@ -110,6 +123,8 @@ namespace Hw_Form_Arregation
         }
         private void btnStat_Click(object sender, EventArgs e)
         {
+            listViewAll.Visible = true;
+            SearchOutput.Visible = false;
             ChineseScore.Min = 100;
             EnglishScore.Min = 100;
             MathScore.Min = 100;
@@ -177,6 +192,8 @@ namespace Hw_Form_Arregation
             }
             else
             {
+                listViewAll.Visible = true;
+                SearchOutput.Visible = false;
                 btnRemove.Enabled = true;
                 Name = txtName.Text;
                 ChineseScore.Name = "國文";
@@ -198,23 +215,22 @@ namespace Hw_Form_Arregation
         }
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            //Todo Search Function
+            SearchOutput.Visible = true;
             int ChineseMin = Convert.ToInt32(txtSearchMin.Text);
             int ChineseMax = Convert.ToInt32(txtSearchMax.Text);
-            ListView SearchOutput = new ListView();
-            //listViewAll.Items.Clear();
-            //for (int i = 0; i < listViewAll.Items.Count; i++)
-            //{
-            //    if (Convert.ToInt32(listViewAll.Items[i].SubItems[1].Text)>=ChineseMin&&
-            //        Convert.ToInt32(listViewAll.Items[i].SubItems[1].Text) <= ChineseMax)
-            //    {
-            //        List<string> SearchCollection = new List<string> { listViewAll.Items[i].SubItems[0].Text, listViewAll.Items[i].SubItems[1].Text, listViewAll.Items[i].SubItems[2].Text, listViewAll.Items[i].SubItems[3].Text,
-            //            listViewAll.Items[i].SubItems[4].Text, listViewAll.Items[i].SubItems[5].Text, listViewAll.Items[i].SubItems[6].Text, listViewAll.Items[i].SubItems[7].Text };
-            //        ListViewItem SearchIndex  = new ListViewItem(SearchCollection);
-            //        SearchOutput.Items.Add(SearchIndex);
-            //    }
-            //}
-            //listViewAll.Items.Add()
+            for (int i = 0; i < listViewAll.Items.Count; i++)
+            {
+                if (Convert.ToInt32(listViewAll.Items[i].SubItems[1].Text)>=ChineseMin&&
+                    Convert.ToInt32(listViewAll.Items[i].SubItems[1].Text) <= ChineseMax)
+                {
+                    string[] SearchCollection = new string[] { listViewAll.Items[i].SubItems[0].Text, listViewAll.Items[i].SubItems[1].Text, listViewAll.Items[i].SubItems[2].Text, listViewAll.Items[i].SubItems[3].Text,
+                        listViewAll.Items[i].SubItems[4].Text, listViewAll.Items[i].SubItems[5].Text, listViewAll.Items[i].SubItems[6].Text, listViewAll.Items[i].SubItems[7].Text };
+                    ListViewItem SearchItems = new ListViewItem(SearchCollection);
+                    SearchOutput.Items.Add(SearchItems);
+                }
+            }
+            listViewAll.Visible = false;
+
 
         }
         #region Method to Get最大最小總和平均

@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項�
 		..\..\..\..\Desktop\Csharp\Class\Lab_Csharp\Lab_Csharp.sln = ..\..\..\..\Desktop\Csharp\Class\Lab_Csharp\Lab_Csharp.sln
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frm_M02_HelloForm", "..\..\..\..\Desktop\Csharp\Class\Lab_Csharp\Frm_M02_HelloForm\Frm_M02_HelloForm.csproj", "{920C6DC4-EEA3-4094-A1C4-742807002C24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frm_M02_HelloForm", "..\..\..\Desktop\Csharp\Class\Lab_Csharp\Frm_M02_HelloForm\Frm_M02_HelloForm.csproj", "{920C6DC4-EEA3-4094-A1C4-742807002C24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

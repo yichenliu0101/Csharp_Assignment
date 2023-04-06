@@ -77,6 +77,12 @@
     <Compile Include="Hw_NotePad.Designer.cs">
       <DependentUpon>Hw_NotePad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hw_Notepad_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_Notepad_Info.Designer.cs">
+      <DependentUpon>Hw_Notepad_Info.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hw_Painter.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_NotePad.resx">
       <DependentUpon>Hw_NotePad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_Notepad_Info.resx">
+      <DependentUpon>Hw_Notepad_Info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_Painter.resx">
       <DependentUpon>Hw_Painter.cs</DependentUpon>
@@ -230,6 +239,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iu_28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Desktop\Csharp\Class\Lab_Csharp\Frm_M02_HelloForm\Frm_M02_HelloForm.csproj">
+      <Project>{920c6dc4-eea3-4094-a1c4-742807002c24}</Project>
+      <Name>Frm_M02_HelloForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hw_Form_LoanCalculate\Hw_Form_LoanCalculate.csproj">
+      <Project>{98fdc437-2c69-4a64-9634-5b28c014affc}</Project>
+      <Name>Hw_Form_LoanCalculate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hw_Form_Pos\Hw_Form_Pos.csproj">
+      <Project>{a3b579e0-739d-4d63-81cf-00078f6b7d2c}</Project>
+      <Name>Hw_Form_Pos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSEBONG_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Winter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AEz7ETx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bod_img_05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

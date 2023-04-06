@@ -9,3 +9,14 @@ C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug
 C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.exe
 C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.pdb
 C:\Users\User\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.Hw_Form_Pos.resources
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\bin\Debug\Hw_Form_Pos.exe.config
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\bin\Debug\Hw_Form_Pos.exe
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\bin\Debug\Hw_Form_Pos.pdb
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.Hw_Pos.resources
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.Properties.Resources.resources
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.csproj.GenerateResource.cache
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.exe
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.pdb

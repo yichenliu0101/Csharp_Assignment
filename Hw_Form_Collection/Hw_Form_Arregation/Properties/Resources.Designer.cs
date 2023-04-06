@@ -63,6 +63,46 @@ namespace Hw_Form_Arregation.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap AEz7ETx {
+            get {
+                object obj = ResourceManager.GetObject("AEz7ETx", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap bod_img_05 {
+            get {
+                object obj = ResourceManager.GetObject("bod_img_05", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap dc88c8f8687d937ad6dcdbb82b3a4ca5 {
+            get {
+                object obj = ResourceManager.GetObject("dc88c8f8687d937ad6dcdbb82b3a4ca5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap images__1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap iu_10 {
             get {
                 object obj = ResourceManager.GetObject("iu_10", resourceCulture);
@@ -226,6 +266,26 @@ namespace Hw_Form_Arregation.Properties {
         internal static System.Drawing.Bitmap iu_51 {
             get {
                 object obj = ResourceManager.GetObject("iu_51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap SSEBONG_1 {
+            get {
+                object obj = ResourceManager.GetObject("SSEBONG_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Winter {
+            get {
+                object obj = ResourceManager.GetObject("Winter", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

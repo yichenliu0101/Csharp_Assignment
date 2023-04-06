@@ -38,9 +38,10 @@
             // DanceCat
             // 
             this.DanceCat.Image = ((System.Drawing.Image)(resources.GetObject("DanceCat.Image")));
-            this.DanceCat.Location = new System.Drawing.Point(12, -1);
+            this.DanceCat.Location = new System.Drawing.Point(9, -1);
+            this.DanceCat.Margin = new System.Windows.Forms.Padding(2);
             this.DanceCat.Name = "DanceCat";
-            this.DanceCat.Size = new System.Drawing.Size(328, 314);
+            this.DanceCat.Size = new System.Drawing.Size(246, 251);
             this.DanceCat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DanceCat.TabIndex = 0;
             this.DanceCat.TabStop = false;
@@ -53,20 +54,21 @@
             // 
             // Hw_ScreenSaver
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(473, 442);
+            this.ClientSize = new System.Drawing.Size(355, 354);
             this.Controls.Add(this.DanceCat);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Hw_ScreenSaver";
             this.Text = "Hw_ScreenSaver";
-            this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Hw_ScreenSaver_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ScreenSaverForm_KeyPress);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Hw_ScreenSaver_MouseClick);
+            this.MouseLeave += new System.EventHandler(this.Hw_ScreenSaver_MouseLeave);
             ((System.ComponentModel.ISupportInitialize)(this.DanceCat)).EndInit();
             this.ResumeLayout(false);
 

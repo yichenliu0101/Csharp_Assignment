@@ -52,22 +52,22 @@ namespace Hw_Form_Arregation
         }
         private void IconCut_Click(object sender, EventArgs e)
         {
-            SendKeys.Send("^X");
+            richTextBox1.Cut();
         }
 
         private void IconDup_Click(object sender, EventArgs e)
         {
-            SendKeys.Send("^C");
+            richTextBox1.Copy();
         }
 
         private void IconPaste_Click(object sender, EventArgs e)
         {
-            SendKeys.Send("^V");
+           richTextBox1.Paste();
         }
 
         private void btnSelectAll_Click(object sender, EventArgs e)
         {
-            SendKeys.Send("^{A}");
+            richTextBox1 .SelectAll();
         }
 
         private void btnColor_Click(object sender, EventArgs e)
@@ -132,13 +132,23 @@ namespace Hw_Form_Arregation
 
         private void btnInfo_Click(object sender, EventArgs e)
         {
-            //Todo Notepad infomation 
-            //Need to use form
+            IconInfo_Click(sender, e);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            toolStripStatusLabel1.Text = DateTime.Now.ToString();
+            toolStripStatusLabel1.Text = DateTime.Now.ToString("tt hh:mm:ss");
+        }
+
+        private void IconInfo_Click(object sender, EventArgs e)
+        {
+            Hw_Notepad_Info info = new Hw_Notepad_Info();
+            info.ShowDialog();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
