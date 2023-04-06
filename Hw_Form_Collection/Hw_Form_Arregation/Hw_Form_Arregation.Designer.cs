@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hw_Form_Arregation));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.label1 = new System.Windows.Forms.Label();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
@@ -65,8 +66,8 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.BackgroundImage = global::Hw_Form_Arregation.Properties.Resources.bod_img_05;
-            this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.splitContainer1.Panel1.BackgroundImage = global::Hw_Form_Arregation.Properties.Resources.dc88c8f8687d937ad6dcdbb82b3a4ca5;
+            this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Panel1.Controls.Add(this.label1);
             // 
             // splitContainer1.Panel2
@@ -94,7 +95,8 @@
             // 
             // splitContainer2.Panel1
             // 
-            this.splitContainer2.Panel1.BackgroundImage = global::Hw_Form_Arregation.Properties.Resources.images__1_;
+            this.splitContainer2.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel1.BackgroundImage")));
+            this.splitContainer2.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer2.Panel1.Controls.Add(this.btnAlarm);
             this.splitContainer2.Panel1.Controls.Add(this.btnGuess);
             this.splitContainer2.Panel1.Controls.Add(this.btnPictureViewer);
