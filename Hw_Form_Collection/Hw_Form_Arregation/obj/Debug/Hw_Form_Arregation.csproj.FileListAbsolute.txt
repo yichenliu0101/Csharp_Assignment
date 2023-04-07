@@ -66,3 +66,6 @@ C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\bin\Debug\Hw_Form_Pos.pdb
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\bin\Debug\Hw_Form_Pos.exe.config
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.csproj.CopyComplete
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Hw_Guess.resources
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Hw_Guess_Num.resources
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Hw_Alarm.resources

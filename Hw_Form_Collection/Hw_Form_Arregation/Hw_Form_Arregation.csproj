@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hw_Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_Alarm.Designer.cs">
+      <DependentUpon>Hw_Alarm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hw_ClassCalculate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,18 @@
     </Compile>
     <Compile Include="Hw_Form_Arregation.Designer.cs">
       <DependentUpon>Hw_Form_Arregation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_Guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_Guess.Designer.cs">
+      <DependentUpon>Hw_Guess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_Guess_Num.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_Guess_Num.Designer.cs">
+      <DependentUpon>Hw_Guess_Num.cs</DependentUpon>
     </Compile>
     <Compile Include="Hw_Method.cs">
       <SubType>Form</SubType>
@@ -127,6 +145,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Hw_Alarm.resx">
+      <DependentUpon>Hw_Alarm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hw_ClassCalculate.resx">
       <DependentUpon>Hw_ClassCalculate.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +156,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_Form_Arregation.resx">
       <DependentUpon>Hw_Form_Arregation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_Guess.resx">
+      <DependentUpon>Hw_Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_Guess_Num.resx">
+      <DependentUpon>Hw_Guess_Num.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_Method.resx">
       <DependentUpon>Hw_Method.cs</DependentUpon>
