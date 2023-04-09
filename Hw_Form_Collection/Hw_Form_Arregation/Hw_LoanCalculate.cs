@@ -41,7 +41,7 @@ namespace Hw_Form_LoanCalculate
             }
             public string GetTotalPay(double Total, double Year, double Rate, double FirstPay)
             {
-                return Convert.ToString(Total + double.Parse(GetMonthPay(Total, Year, Rate, FirstPay)) * Year * 12); //總計因此要把GetMonthPay*總月數
+                return Convert.ToString(double.Parse(GetMonthPay(Total, Year, Rate, FirstPay)) * Year * 12); //總計因此要把GetMonthPay*總月數
             }
         }
         private void btnReport_Click(object sender, EventArgs e)

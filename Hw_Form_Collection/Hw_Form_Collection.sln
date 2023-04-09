@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項�
 		..\..\..\..\Desktop\Csharp\Class\Lab_Csharp\Lab_Csharp.sln = ..\..\..\..\Desktop\Csharp\Class\Lab_Csharp\Lab_Csharp.sln
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hw_Form_LoanCalculate", "..\..\..\..\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_LoanCalculate\Hw_Form_LoanCalculate.csproj", "{98FDC437-2C69-4A64-9634-5B28C014AFFC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,10 +26,6 @@ Global
 		{157D25A3-6A31-466F-BE97-4EEDDCEC1FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{157D25A3-6A31-466F-BE97-4EEDDCEC1FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{157D25A3-6A31-466F-BE97-4EEDDCEC1FEC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{98FDC437-2C69-4A64-9634-5B28C014AFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98FDC437-2C69-4A64-9634-5B28C014AFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98FDC437-2C69-4A64-9634-5B28C014AFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98FDC437-2C69-4A64-9634-5B28C014AFFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
