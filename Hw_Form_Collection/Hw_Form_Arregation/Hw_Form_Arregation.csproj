@@ -268,11 +268,7 @@
     <None Include="Resources\iu_28.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Desktop\Csharp\Class\Lab_Csharp\Frm_M02_HelloForm\Frm_M02_HelloForm.csproj">
-      <Project>{920c6dc4-eea3-4094-a1c4-742807002c24}</Project>
-      <Name>Frm_M02_HelloForm</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Hw_Form_LoanCalculate\Hw_Form_LoanCalculate.csproj">
+    <ProjectReference Include="..\..\..\..\..\Desktop\Csharp\Assignment\Hw_Form_Collection\Hw_Form_LoanCalculate\Hw_Form_LoanCalculate.csproj">
       <Project>{98fdc437-2c69-4a64-9634-5b28c014affc}</Project>
       <Name>Hw_Form_LoanCalculate</Name>
     </ProjectReference>

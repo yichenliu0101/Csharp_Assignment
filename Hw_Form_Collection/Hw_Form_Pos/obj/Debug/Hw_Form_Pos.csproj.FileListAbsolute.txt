@@ -20,3 +20,14 @@ C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Deb
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.exe
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.pdb
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\bin\Debug\Hw_Form_Pos.exe.config
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\bin\Debug\Hw_Form_Pos.exe
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\bin\Debug\Hw_Form_Pos.pdb
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.csproj.AssemblyReference.cache
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.csproj.SuggestedBindingRedirects.cache
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.Hw_Pos.resources
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.Properties.Resources.resources
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.csproj.GenerateResource.cache
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.exe
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Pos\obj\Debug\Hw_Form_Pos.pdb

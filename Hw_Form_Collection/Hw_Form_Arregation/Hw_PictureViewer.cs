@@ -20,7 +20,8 @@ namespace Hw_Form_Arregation
 
         private void Hw_PictureViewer_Load(object sender, EventArgs e)
         {
-            string imageDirectory = @"C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\Resources";
+            //C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\bin\Debug
+            string imageDirectory = @"..\..\Resources";
 
             string[] imageFileList = Directory.GetFiles(imageDirectory);
 
@@ -65,7 +66,7 @@ namespace Hw_Form_Arregation
         private void Hw_PictureViewer_Resize(object sender, EventArgs e)
         {
             panel1.Controls.Clear();
-            string imageDirectory = @"C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\Resources";
+            string imageDirectory = @"..\..\Resources";
 
             string[] imageFileList = Directory.GetFiles(imageDirectory);
             int x = 20;

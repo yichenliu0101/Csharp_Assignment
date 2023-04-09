@@ -81,6 +81,7 @@ namespace Hw_Form_Arregation
             }
             else
             {
+                btnStat.Enabled = true;
                 btnRemove.Enabled = true;
                 Name = txtName.Text;
                 ChineseScore.Name = "國文";
@@ -120,6 +121,8 @@ namespace Hw_Form_Arregation
             MathScore.Min = 0;
             btnRemove.Enabled = false;
             btnStat.Enabled = false;
+            btnAddStudent.Enabled = true;
+            btnInsertSave.Enabled = true;
         }
         private void btnStat_Click(object sender, EventArgs e)
         {
@@ -192,6 +195,7 @@ namespace Hw_Form_Arregation
             }
             else
             {
+                btnStat.Enabled = true;
                 listViewAll.Visible = true;
                 SearchOutput.Visible = false;
                 btnRemove.Enabled = true;
