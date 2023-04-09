@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form_LoanReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_LoanReport.Designer.cs">
+      <DependentUpon>Form_LoanReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hw_Alarm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,12 @@
     </Compile>
     <Compile Include="Hw_Guess_Num.Designer.cs">
       <DependentUpon>Hw_Guess_Num.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_LoanCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_LoanCalculate.Designer.cs">
+      <DependentUpon>Hw_LoanCalculate.cs</DependentUpon>
     </Compile>
     <Compile Include="Hw_Method.cs">
       <SubType>Form</SubType>
@@ -145,6 +157,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_LoanReport.resx">
+      <DependentUpon>Form_LoanReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hw_Alarm.resx">
       <DependentUpon>Hw_Alarm.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_Guess_Num.resx">
       <DependentUpon>Hw_Guess_Num.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_LoanCalculate.resx">
+      <DependentUpon>Hw_LoanCalculate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_Method.resx">
       <DependentUpon>Hw_Method.cs</DependentUpon>
