@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Frm_M02_HelloForm;
 using Hw_Form_LoanCalculate;
 using Hw_Form_Pos;
 
@@ -20,12 +21,12 @@ namespace Hw_Form_Arregation
         }
         private void btnHw01_Click(object sender, EventArgs e)
         {
-            //splitContainer2.Panel2.Controls.Clear();
-            //Frm_HelloHi Form = new Frm_HelloHi();
-            //Form.TopLevel = false;
-            //Form.Parent = this;
-            //splitContainer2.Panel2.Controls.Add(Form);
-            //Form.Show();
+            splitContainer2.Panel2.Controls.Clear();
+            Frm_HelloHi Form = new Frm_HelloHi();
+            Form.TopLevel = false;
+            Form.Parent = this;
+            splitContainer2.Panel2.Controls.Add(Form);
+            Form.Show();
         }
 
         private void btnHw02_Click(object sender, EventArgs e)

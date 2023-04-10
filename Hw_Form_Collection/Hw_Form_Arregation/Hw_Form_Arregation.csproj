@@ -53,6 +53,12 @@
     <Compile Include="Form_LoanReport.Designer.cs">
       <DependentUpon>Form_LoanReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_HelloHi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HelloHi.Designer.cs">
+      <DependentUpon>Frm_HelloHi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hw_Alarm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +165,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form_LoanReport.resx">
       <DependentUpon>Form_LoanReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HelloHi.resx">
+      <DependentUpon>Frm_HelloHi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_Alarm.resx">
       <DependentUpon>Hw_Alarm.cs</DependentUpon>
