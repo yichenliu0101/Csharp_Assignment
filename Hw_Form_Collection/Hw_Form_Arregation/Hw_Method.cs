@@ -86,14 +86,14 @@ namespace Hw_Form_Arregation
             {
                 if (arr0711[i] % 2 == 0)
                 {
-                    CountOdd++;
+                    CountEven++;
                 }
                 else
                 {
-                    CountEven++;
+                    CountOdd++;
                 }
             }
-            labShow.Text = $"int陣列arr0711[1, 5, 6, 8, 7, 97, 54, 887, 65, 578]\n奇數共{CountEven}\n偶數共{CountOdd}";
+            labShow.Text = $"int陣列arr0711[1, 5, 6, 8, 7, 97, 54, 887, 65, 578]\n奇數共{CountOdd}\n偶數共{CountEven}";
         }
 
         private void btnLongest_Click(object sender, EventArgs e)
