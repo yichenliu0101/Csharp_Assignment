@@ -92,7 +92,8 @@ namespace Hw_Form_Arregation
                     y += 100;
                 }
                 panel1.Controls.Add(pic);
-                
+                pic.Click += new EventHandler(pic_Click);
+
             }
         }
 

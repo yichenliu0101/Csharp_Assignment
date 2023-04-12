@@ -89,150 +89,162 @@
             // 
             this.btnClear.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnClear.Location = new System.Drawing.Point(10, 185);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(78, 23);
             this.btnClear.TabIndex = 31;
             this.btnClear.Text = "清空結果欄";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnMinArray
             // 
             this.btnMinArray.AutoSize = true;
             this.btnMinArray.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnMinArray.Location = new System.Drawing.Point(548, 113);
-            this.btnMinArray.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMinArray.Margin = new System.Windows.Forms.Padding(2);
             this.btnMinArray.Name = "btnMinArray";
             this.btnMinArray.Size = new System.Drawing.Size(129, 24);
             this.btnMinArray.TabIndex = 30;
             this.btnMinArray.Text = "Min(陣列arr0711[])";
             this.btnMinArray.UseVisualStyleBackColor = true;
+            this.btnMinArray.Click += new System.EventHandler(this.btnMinArray_Click);
             // 
             // btnMaxArray
             // 
             this.btnMaxArray.AutoSize = true;
             this.btnMaxArray.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnMaxArray.Location = new System.Drawing.Point(548, 85);
-            this.btnMaxArray.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMaxArray.Margin = new System.Windows.Forms.Padding(2);
             this.btnMaxArray.Name = "btnMaxArray";
             this.btnMaxArray.Size = new System.Drawing.Size(129, 24);
             this.btnMaxArray.TabIndex = 29;
             this.btnMaxArray.Text = "Max(陣列arr0711[])";
             this.btnMaxArray.UseVisualStyleBackColor = true;
+            this.btnMaxArray.Click += new System.EventHandler(this.btnMaxArray_Click);
             // 
             // btnSumArray
             // 
             this.btnSumArray.AutoSize = true;
             this.btnSumArray.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnSumArray.Location = new System.Drawing.Point(548, 57);
-            this.btnSumArray.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSumArray.Margin = new System.Windows.Forms.Padding(2);
             this.btnSumArray.Name = "btnSumArray";
             this.btnSumArray.Size = new System.Drawing.Size(129, 24);
             this.btnSumArray.TabIndex = 28;
             this.btnSumArray.Text = "Sum(陣列arr0711[])";
             this.btnSumArray.UseVisualStyleBackColor = true;
+            this.btnSumArray.Click += new System.EventHandler(this.btnSumArray_Click);
             // 
             // btnSwap
             // 
             this.btnSwap.AutoSize = true;
             this.btnSwap.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnSwap.Location = new System.Drawing.Point(548, 29);
-            this.btnSwap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSwap.Margin = new System.Windows.Forms.Padding(2);
             this.btnSwap.Name = "btnSwap";
             this.btnSwap.Size = new System.Drawing.Size(129, 24);
             this.btnSwap.TabIndex = 27;
             this.btnSwap.Text = "Swap[int, int]";
             this.btnSwap.UseVisualStyleBackColor = true;
+            this.btnSwap.Click += new System.EventHandler(this.btnSwap_Click);
             // 
             // btn1001
             // 
             this.btn1001.AutoSize = true;
             this.btn1001.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn1001.Location = new System.Drawing.Point(381, 84);
-            this.btn1001.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn1001.Margin = new System.Windows.Forms.Padding(2);
             this.btn1001.Name = "btn1001";
             this.btn1001.Size = new System.Drawing.Size(146, 66);
             this.btn1001.TabIndex = 26;
             this.btn1001.Text = "[10, 10]二維陣列\n101010\n010101\n......";
             this.btn1001.UseVisualStyleBackColor = true;
+            this.btn1001.Click += new System.EventHandler(this.btn1001_Click);
             // 
             // btnIn0Out1
             // 
             this.btnIn0Out1.AutoSize = true;
             this.btnIn0Out1.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnIn0Out1.Location = new System.Drawing.Point(381, 56);
-            this.btnIn0Out1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIn0Out1.Margin = new System.Windows.Forms.Padding(2);
             this.btnIn0Out1.Name = "btnIn0Out1";
             this.btnIn0Out1.Size = new System.Drawing.Size(165, 24);
             this.btnIn0Out1.TabIndex = 25;
             this.btnIn0Out1.Text = "[10, 10]二維陣列-邊0,內1";
             this.btnIn0Out1.UseVisualStyleBackColor = true;
+            this.btnIn0Out1.Click += new System.EventHandler(this.btnIn0Out1_Click);
             // 
             // btnOut1In0
             // 
             this.btnOut1In0.AutoSize = true;
             this.btnOut1In0.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnOut1In0.Location = new System.Drawing.Point(381, 28);
-            this.btnOut1In0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOut1In0.Margin = new System.Windows.Forms.Padding(2);
             this.btnOut1In0.Name = "btnOut1In0";
             this.btnOut1In0.Size = new System.Drawing.Size(165, 24);
             this.btnOut1In0.TabIndex = 24;
             this.btnOut1In0.Text = "[10, 10]二維陣列-邊1,內0";
             this.btnOut1In0.UseVisualStyleBackColor = true;
+            this.btnOut1In0.Click += new System.EventHandler(this.btnOut1In0_Click);
             // 
             // btnCountC
             // 
             this.btnCountC.AutoSize = true;
             this.btnCountC.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnCountC.Location = new System.Drawing.Point(10, 142);
-            this.btnCountC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCountC.Margin = new System.Windows.Forms.Padding(2);
             this.btnCountC.Name = "btnCountC";
             this.btnCountC.Size = new System.Drawing.Size(259, 24);
             this.btnCountC.TabIndex = 23;
             this.btnCountC.Text = "陣列arr0711_Str[]xue \'C\'or\'c\'的字樣有幾個";
             this.btnCountC.UseVisualStyleBackColor = true;
+            this.btnCountC.Click += new System.EventHandler(this.btnCountC_Click);
             // 
             // btnLongest
             // 
             this.btnLongest.AutoSize = true;
             this.btnLongest.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnLongest.Location = new System.Drawing.Point(182, 69);
-            this.btnLongest.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLongest.Margin = new System.Windows.Forms.Padding(2);
             this.btnLongest.Name = "btnLongest";
             this.btnLongest.Size = new System.Drawing.Size(187, 24);
             this.btnLongest.TabIndex = 22;
             this.btnLongest.Text = "陣列arr0711_Str[]最長的名字";
             this.btnLongest.UseVisualStyleBackColor = true;
+            this.btnLongest.Click += new System.EventHandler(this.btnLongest_Click);
             // 
             // btnCountOddAndEven
             // 
             this.btnCountOddAndEven.AutoSize = true;
             this.btnCountOddAndEven.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnCountOddAndEven.Location = new System.Drawing.Point(167, 28);
-            this.btnCountOddAndEven.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCountOddAndEven.Margin = new System.Windows.Forms.Padding(2);
             this.btnCountOddAndEven.Name = "btnCountOddAndEven";
             this.btnCountOddAndEven.Size = new System.Drawing.Size(207, 24);
             this.btnCountOddAndEven.TabIndex = 21;
             this.btnCountOddAndEven.Text = "陣列arr0711[]統計奇偶數的數量";
             this.btnCountOddAndEven.UseVisualStyleBackColor = true;
+            this.btnCountOddAndEven.Click += new System.EventHandler(this.btnCountOddAndEven_Click);
             // 
             // btnArrMaxMin
             // 
             this.btnArrMaxMin.AutoSize = true;
             this.btnArrMaxMin.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnArrMaxMin.Location = new System.Drawing.Point(10, 95);
-            this.btnArrMaxMin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnArrMaxMin.Margin = new System.Windows.Forms.Padding(2);
             this.btnArrMaxMin.Name = "btnArrMaxMin";
             this.btnArrMaxMin.Size = new System.Drawing.Size(169, 24);
             this.btnArrMaxMin.TabIndex = 20;
             this.btnArrMaxMin.Text = "陣列arr0711[]的最大/小值";
             this.btnArrMaxMin.UseVisualStyleBackColor = true;
+            this.btnArrMaxMin.Click += new System.EventHandler(this.btnArrMaxMin_Click);
             // 
             // txtNum
             // 
             this.txtNum.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtNum.Location = new System.Drawing.Point(78, 25);
-            this.txtNum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNum.Margin = new System.Windows.Forms.Padding(2);
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(76, 27);
             this.txtNum.TabIndex = 19;
@@ -241,12 +253,13 @@
             // 
             this.btnOddOrEven.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnOddOrEven.Location = new System.Drawing.Point(10, 54);
-            this.btnOddOrEven.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOddOrEven.Margin = new System.Windows.Forms.Padding(2);
             this.btnOddOrEven.Name = "btnOddOrEven";
             this.btnOddOrEven.Size = new System.Drawing.Size(158, 23);
             this.btnOddOrEven.TabIndex = 18;
             this.btnOddOrEven.Text = "輸入的數字是奇數或偶數";
             this.btnOddOrEven.UseVisualStyleBackColor = true;
+            this.btnOddOrEven.Click += new System.EventHandler(this.btnOddOrEven_Click);
             // 
             // labNum
             // 
@@ -263,7 +276,7 @@
             // 
             this.txtStart.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtStart.Location = new System.Drawing.Point(289, 166);
-            this.txtStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtStart.Margin = new System.Windows.Forms.Padding(2);
             this.txtStart.Name = "txtStart";
             this.txtStart.Size = new System.Drawing.Size(76, 27);
             this.txtStart.TabIndex = 35;
@@ -283,7 +296,7 @@
             // 
             this.txtEnd.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtEnd.Location = new System.Drawing.Point(289, 195);
-            this.txtEnd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEnd.Margin = new System.Windows.Forms.Padding(2);
             this.txtEnd.Name = "txtEnd";
             this.txtEnd.Size = new System.Drawing.Size(76, 27);
             this.txtEnd.TabIndex = 37;
@@ -303,7 +316,7 @@
             // 
             this.txtStep.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtStep.Location = new System.Drawing.Point(289, 225);
-            this.txtStep.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtStep.Margin = new System.Windows.Forms.Padding(2);
             this.txtStep.Name = "txtStep";
             this.txtStep.Size = new System.Drawing.Size(76, 27);
             this.txtStep.TabIndex = 39;
@@ -324,7 +337,7 @@
             this.btnFor.BackColor = System.Drawing.SystemColors.Info;
             this.btnFor.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnFor.Location = new System.Drawing.Point(368, 165);
-            this.btnFor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFor.Margin = new System.Windows.Forms.Padding(2);
             this.btnFor.Name = "btnFor";
             this.btnFor.Size = new System.Drawing.Size(46, 23);
             this.btnFor.TabIndex = 40;
@@ -337,7 +350,7 @@
             this.btnWhile.BackColor = System.Drawing.SystemColors.Info;
             this.btnWhile.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnWhile.Location = new System.Drawing.Point(368, 193);
-            this.btnWhile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnWhile.Margin = new System.Windows.Forms.Padding(2);
             this.btnWhile.Name = "btnWhile";
             this.btnWhile.Size = new System.Drawing.Size(46, 23);
             this.btnWhile.TabIndex = 41;
@@ -350,7 +363,7 @@
             this.btnDo.BackColor = System.Drawing.SystemColors.Info;
             this.btnDo.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnDo.Location = new System.Drawing.Point(368, 225);
-            this.btnDo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDo.Margin = new System.Windows.Forms.Padding(2);
             this.btnDo.Name = "btnDo";
             this.btnDo.Size = new System.Drawing.Size(46, 23);
             this.btnDo.TabIndex = 42;
@@ -362,7 +375,7 @@
             // 
             this.txtTriangle.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtTriangle.Location = new System.Drawing.Point(489, 166);
-            this.txtTriangle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTriangle.Margin = new System.Windows.Forms.Padding(2);
             this.txtTriangle.Name = "txtTriangle";
             this.txtTriangle.Size = new System.Drawing.Size(39, 27);
             this.txtTriangle.TabIndex = 44;
@@ -384,7 +397,7 @@
             this.btnTriangle.BackColor = System.Drawing.SystemColors.Info;
             this.btnTriangle.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnTriangle.Location = new System.Drawing.Point(445, 193);
-            this.btnTriangle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTriangle.Margin = new System.Windows.Forms.Padding(2);
             this.btnTriangle.Name = "btnTriangle";
             this.btnTriangle.Size = new System.Drawing.Size(94, 24);
             this.btnTriangle.TabIndex = 45;
@@ -398,7 +411,7 @@
             this.btn99.BackColor = System.Drawing.SystemColors.Info;
             this.btn99.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn99.Location = new System.Drawing.Point(445, 223);
-            this.btn99.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn99.Margin = new System.Windows.Forms.Padding(2);
             this.btn99.Name = "btn99";
             this.btn99.Size = new System.Drawing.Size(94, 24);
             this.btn99.TabIndex = 46;
@@ -412,7 +425,7 @@
             this.btnBinary.BackColor = System.Drawing.SystemColors.Info;
             this.btnBinary.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnBinary.Location = new System.Drawing.Point(554, 167);
-            this.btnBinary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBinary.Margin = new System.Windows.Forms.Padding(2);
             this.btnBinary.Name = "btnBinary";
             this.btnBinary.Size = new System.Drawing.Size(114, 24);
             this.btnBinary.TabIndex = 47;
@@ -426,7 +439,7 @@
             this.btnLottery.BackColor = System.Drawing.SystemColors.Info;
             this.btnLottery.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnLottery.Location = new System.Drawing.Point(554, 198);
-            this.btnLottery.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLottery.Margin = new System.Windows.Forms.Padding(2);
             this.btnLottery.Name = "btnLottery";
             this.btnLottery.Size = new System.Drawing.Size(124, 24);
             this.btnLottery.TabIndex = 48;
@@ -472,7 +485,7 @@
             this.Controls.Add(this.txtNum);
             this.Controls.Add(this.btnOddOrEven);
             this.Controls.Add(this.labNum);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Hw_ForDoWhile";
             this.Text = "ForDoWhile";
             this.ResumeLayout(false);
