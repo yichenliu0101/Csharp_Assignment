@@ -76,3 +76,4 @@ C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arr
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_LoanCalculate.Form_LoanReport.resources
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_LoanCalculate.Hw_LoanCalculate.resources
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Frm_M02_HelloForm.Frm_HelloHi.resources
+C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Picture.resources

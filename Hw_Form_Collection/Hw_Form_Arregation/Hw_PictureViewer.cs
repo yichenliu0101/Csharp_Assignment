@@ -41,7 +41,8 @@ namespace Hw_Form_Arregation
                     y += 100;
                 }
                 panel1.Controls.Add(pic);
-            
+                pic.Click += new EventHandler(pic_Click);
+
             }
             //int x = 20;
             //int y = 20;
@@ -62,7 +63,13 @@ namespace Hw_Form_Arregation
             //}
 
         }
-
+        void pic_Click(object sender, EventArgs e)
+        {
+            PictureBox pic = sender as PictureBox;
+            Picture frm = new Picture();
+            frm.pictureBox = pic;
+            frm.ShowDialog();
+        }
         private void Hw_PictureViewer_Resize(object sender, EventArgs e)
         {
             panel1.Controls.Clear();
@@ -85,8 +92,13 @@ namespace Hw_Form_Arregation
                     y += 100;
                 }
                 panel1.Controls.Add(pic);
-
+                
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
