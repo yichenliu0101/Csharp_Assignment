@@ -133,12 +133,32 @@ namespace Hw_Form_Arregation
                     Winner = "O";
                 }
                 MessageBox.Show($"{Winner}手獲勝");
+                Reset(btnSpace1);
+                Reset(btnSpace2);
+                Reset(btnSpace3);
+                Reset(btnSpace4);
+                Reset(btnSpace5);
+                Reset(btnSpace6);
+                Reset(btnSpace7);
+                Reset(btnSpace8);
+                Reset(btnSpace9);
+                Count = 0;
             }
             else
             {
                 if(Count == 9)
                 {
                     MessageBox.Show("Tie!");
+                    Reset(btnSpace1);
+                    Reset(btnSpace2);
+                    Reset(btnSpace3);
+                    Reset(btnSpace4);
+                    Reset(btnSpace5);
+                    Reset(btnSpace6);
+                    Reset(btnSpace7);
+                    Reset(btnSpace8);
+                    Reset(btnSpace9);
+                    Count = 0;
                 }
             }
         }

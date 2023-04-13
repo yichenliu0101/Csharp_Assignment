@@ -18,15 +18,15 @@ namespace Hw_Form_Arregation
         }
         public class Calculate
         {
-            public int Num1 { get; set; }
-            public int Num2 { get; set; }
+            public double Num1 { get; set; }
+            public double Num2 { get; set; }
             public string Oper { get; set; }
             public Calculate(string num1, string num2)
             {
-                Num1 = int.Parse(num1);
-                Num2 = int.Parse(num2);
+                Num1 = double.Parse(num1);
+                Num2 = double.Parse(num2);
             }
-            public string Ans(int num1, int num2, string Oper)
+            public string Ans(double num1, double num2, string Oper)
             {
                 string ans;
                 switch (Oper)
