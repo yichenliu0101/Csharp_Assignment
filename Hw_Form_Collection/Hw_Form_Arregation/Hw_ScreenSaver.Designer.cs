@@ -68,7 +68,7 @@
             this.Load += new System.EventHandler(this.Hw_ScreenSaver_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ScreenSaverForm_KeyPress);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Hw_ScreenSaver_MouseClick);
-            this.MouseLeave += new System.EventHandler(this.Hw_ScreenSaver_MouseLeave);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Hw_ScreenSaver_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.DanceCat)).EndInit();
             this.ResumeLayout(false);
 

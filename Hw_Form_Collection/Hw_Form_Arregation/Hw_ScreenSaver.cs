@@ -49,9 +49,14 @@ namespace Hw_Form_Arregation
             //DanceCat.Refresh();
 
         }
-        private void Hw_ScreenSaver_MouseLeave(object sender, EventArgs e)
+        int x = Cursor.Position.X;
+        int y = Cursor.Position.Y;
+        private void Hw_ScreenSaver_MouseMove(object sender, MouseEventArgs e)
         {
-            this.Close();
+            if(x!=Cursor.Position.X || y!=Cursor.Position.Y)
+            {
+                this.Close();
+            }
         }
     }
 }
