@@ -239,46 +239,70 @@ namespace Hw_Form_Arregation
         #region New Part
         private void btnFor_Click(object sender, EventArgs e)
         {
-            int Start = Convert.ToInt32(txtStart.Text);
-            int End = Convert.ToInt32(txtEnd.Text);
-            int Step = Convert.ToInt32(txtStep.Text);
-            int Sum = 0;
-            for (int i = Start; i <= End; i += Step)
+            try
             {
-                Sum += i;
+                int Start = Convert.ToInt32(txtStart.Text);
+                int End = Convert.ToInt32(txtEnd.Text);
+                int Step = Convert.ToInt32(txtStep.Text);
+                int Sum = 0;
+                for (int i = Start; i <= End; i += Step)
+                {
+                    Sum += i;
+                }
+                labShow.Text = $"{Start}到{End}\n加總為{Sum}";
             }
-            labShow.Text = $"{Start}到{End}\n加總為{Sum}";
+            catch (Exception ex)
+            {
+                MessageBox.Show("請輸入數值");
+            }
         }
         #endregion
 
         private void btnWhile_Click(object sender, EventArgs e)
         {
-            int Start = Convert.ToInt32(txtStart.Text);
-            int SaveStart = Start;
-            int End = Convert.ToInt32(txtEnd.Text);
-            int Step = Convert.ToInt32(txtStep.Text);
-            int Sum = 0;
-            while (SaveStart <= End)
+            try
             {
-                Sum += SaveStart;
-                SaveStart += Step;
+                int Start = Convert.ToInt32(txtStart.Text);
+                int SaveStart = Start;
+                int End = Convert.ToInt32(txtEnd.Text);
+                int Step = Convert.ToInt32(txtStep.Text);
+                int Sum = 0;
+                while (SaveStart <= End)
+                {
+                    Sum += SaveStart;
+                    SaveStart += Step;
+                }
+                labShow.Text = $"{Start}到{End}\n加總為{Sum}";
             }
-            labShow.Text = $"{Start}到{End}\n加總為{Sum}";
+            catch (Exception ex)
+            {
+                MessageBox.Show("請輸入數值");
+            }
+
+
         }
 
         private void btnDo_Click(object sender, EventArgs e)
         {
-            int Start = Convert.ToInt32(txtStart.Text);
-            int SaveStart = Start;
-            int End = Convert.ToInt32(txtEnd.Text);
-            int Step = Convert.ToInt32(txtStep.Text);
-            int Sum = 0;
-            do
+            try
             {
-                Sum += SaveStart;
-                SaveStart += Step;
-            } while (SaveStart <= End);
-            labShow.Text = $"{Start}到{End}\n加總為{Sum}";
+                int Start = Convert.ToInt32(txtStart.Text);
+                int SaveStart = Start;
+                int End = Convert.ToInt32(txtEnd.Text);
+                int Step = Convert.ToInt32(txtStep.Text);
+                int Sum = 0;
+                do
+                {
+                    Sum += SaveStart;
+                    SaveStart += Step;
+                } while (SaveStart <= End);
+                labShow.Text = $"{Start}到{End}\n加總為{Sum}";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("請輸入數值");
+            }
+
         }
 
         private void btnTriangle_Click(object sender, EventArgs e)
@@ -309,9 +333,9 @@ namespace Hw_Form_Arregation
         {
             labShow.Text = "九九乘法表\n";
             int Total;
-            for(int i = 1;  i < 10; i++)
+            for (int i = 1; i < 10; i++)
             {
-                for(int j = 2; j < 10; j++)
+                for (int j = 2; j < 10; j++)
                 {
                     Total = i * j;
                     if (Total < 10)
@@ -335,9 +359,9 @@ namespace Hw_Form_Arregation
         string GetBinary(int Num)
         {
             string ans = "";
-            while(Num > 0)
+            while (Num > 0)
             {
-                ans = $"{Num % 2}"+ ans;
+                ans = $"{Num % 2}" + ans;
                 Num /= 2;
             }
             return ans;
@@ -348,12 +372,12 @@ namespace Hw_Form_Arregation
             labShow.Text = "樂透號碼\n";
             int[] Lottery = new int[6];
             Random Lott = new Random(Guid.NewGuid().GetHashCode());
-            for(int i = 0; i < 6; i++)
+            for (int i = 0; i < 6; i++)
             {
                 Lottery[i] = Lott.Next(1, 49);
                 labShow.Text += Lottery[i] + "  ";
             }
-            
+
         }
     }
 }

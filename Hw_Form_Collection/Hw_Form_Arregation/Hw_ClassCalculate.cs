@@ -52,26 +52,54 @@ namespace Hw_Form_Arregation
         }
         private void btnPlus_Click(object sender, EventArgs e)
         {
-            Calculate PlusOp = new Calculate(txtNum1.Text, txtNum2.Text);
-            labAns.Text =  PlusOp.Ans(PlusOp.Num1, PlusOp.Num2, "+");
+            try
+            {
+                Calculate PlusOp = new Calculate(txtNum1.Text, txtNum2.Text);
+                labAns.Text = PlusOp.Ans(PlusOp.Num1, PlusOp.Num2, "+");
+            }
+            catch(FormatException ex)
+            {
+                MessageBox.Show("請輸入數值");
+            }
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
         {
-            Calculate PlusOp = new Calculate(txtNum1.Text, txtNum2.Text);
-            labAns.Text = PlusOp.Ans(PlusOp.Num1, PlusOp.Num2, "-");
+            try
+            {
+                Calculate PlusOp = new Calculate(txtNum1.Text, txtNum2.Text);
+                labAns.Text = PlusOp.Ans(PlusOp.Num1, PlusOp.Num2, "-");
+            }
+            catch (FormatException ex)
+            {
+                MessageBox.Show("請輸入數值");
+            }
         }
 
         private void btnMultiply_Click(object sender, EventArgs e)
         {
-            Calculate PlusOp = new Calculate(txtNum1.Text, txtNum2.Text);
-            labAns.Text = PlusOp.Ans(PlusOp.Num1, PlusOp.Num2, "*");
+            try
+            {
+                Calculate PlusOp = new Calculate(txtNum1.Text, txtNum2.Text);
+                labAns.Text = PlusOp.Ans(PlusOp.Num1, PlusOp.Num2, "*");
+            }
+            catch (FormatException ex)
+            {
+                MessageBox.Show("請輸入數值");
+            }
         }
 
         private void btnDivide_Click(object sender, EventArgs e)
         {
-            Calculate PlusOp = new Calculate(txtNum1.Text, txtNum2.Text);
-            labAns.Text = PlusOp.Ans(PlusOp.Num1, PlusOp.Num2, "/");
+            try
+            {
+                Calculate PlusOp = new Calculate(txtNum1.Text, txtNum2.Text);
+                labAns.Text = PlusOp.Ans(PlusOp.Num1, PlusOp.Num2, "/");
+            }
+            catch (FormatException ex)
+            {
+                MessageBox.Show("請輸入數值");
+            }
         }
     }
 }

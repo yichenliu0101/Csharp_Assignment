@@ -219,6 +219,7 @@ namespace Hw_Form_Arregation
         }
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            SearchOutput.Items.Clear();
             SearchOutput.Visible = true;
             int ChineseMin = Convert.ToInt32(txtSearchMin.Text);
             int ChineseMax = Convert.ToInt32(txtSearchMax.Text);

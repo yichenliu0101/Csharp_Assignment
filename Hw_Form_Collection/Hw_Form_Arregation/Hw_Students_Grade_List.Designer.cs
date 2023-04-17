@@ -222,7 +222,7 @@
             // 
             this.txtSearchMin.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtSearchMin.Location = new System.Drawing.Point(32, 359);
-            this.txtSearchMin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSearchMin.Margin = new System.Windows.Forms.Padding(2);
             this.txtSearchMin.Name = "txtSearchMin";
             this.txtSearchMin.Size = new System.Drawing.Size(54, 24);
             this.txtSearchMin.TabIndex = 39;
@@ -231,7 +231,7 @@
             // 
             this.txtSearchMax.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtSearchMax.Location = new System.Drawing.Point(104, 359);
-            this.txtSearchMax.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSearchMax.Margin = new System.Windows.Forms.Padding(2);
             this.txtSearchMax.Name = "txtSearchMax";
             this.txtSearchMax.Size = new System.Drawing.Size(55, 24);
             this.txtSearchMax.TabIndex = 40;
@@ -249,6 +249,7 @@
             // 
             // btnStat
             // 
+            this.btnStat.Enabled = false;
             this.btnStat.Location = new System.Drawing.Point(526, 394);
             this.btnStat.Name = "btnStat";
             this.btnStat.Size = new System.Drawing.Size(131, 29);
@@ -300,7 +301,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Hw_Students_Grade_List";
             this.Text = "Hw_Students_Grade_List";
             this.Load += new System.EventHandler(this.Hw_Students_Grade_List_Load);
