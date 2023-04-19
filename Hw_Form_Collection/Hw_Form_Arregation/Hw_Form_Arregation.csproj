@@ -89,6 +89,18 @@
     <Compile Include="Hw_Guess.Designer.cs">
       <DependentUpon>Hw_Guess.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hw_GuessNum_Delegate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_GuessNum_Delegate.Designer.cs">
+      <DependentUpon>Hw_GuessNum_Delegate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hw_Guess_Delegate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hw_Guess_Delegate.Designer.cs">
+      <DependentUpon>Hw_Guess_Delegate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hw_Guess_Num.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +201,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_Guess.resx">
       <DependentUpon>Hw_Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_GuessNum_Delegate.resx">
+      <DependentUpon>Hw_GuessNum_Delegate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hw_Guess_Delegate.resx">
+      <DependentUpon>Hw_Guess_Delegate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hw_Guess_Num.resx">
       <DependentUpon>Hw_Guess_Num.cs</DependentUpon>

@@ -77,3 +77,7 @@ C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_LoanCalculate.Hw_LoanCalculate.resources
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Frm_M02_HelloForm.Frm_HelloHi.resources
 C:\Users\User\Documents\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Picture.resources
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Frm_M02_HelloForm.Frm_HelloHi.resources
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Hw_GuessNum_Delegate.resources
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Hw_Guess_Delegate.resources
+C:\Users\aaron\Documents\GitHub\Csharp_Assignment\Hw_Form_Collection\Hw_Form_Arregation\obj\Debug\Hw_Form_Arregation.Picture.resources

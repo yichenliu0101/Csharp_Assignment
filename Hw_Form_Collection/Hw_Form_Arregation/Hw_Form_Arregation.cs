@@ -159,7 +159,7 @@ namespace Hw_Form_Arregation
         private void btnGuess_Click(object sender, EventArgs e)
         {
             splitContainer2.Panel2.Controls.Clear();
-            Hw_Guess Form = new Hw_Guess();
+            Hw_Guess_Delegate Form = new Hw_Guess_Delegate();
             Form.TopLevel = false;
             Form.Parent = this;
             splitContainer2.Panel2.Controls.Add(Form);

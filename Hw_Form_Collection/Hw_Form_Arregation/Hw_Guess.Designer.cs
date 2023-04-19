@@ -37,18 +37,20 @@
             // 
             this.labGuess.AutoSize = true;
             this.labGuess.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labGuess.Location = new System.Drawing.Point(45, 70);
+            this.labGuess.Location = new System.Drawing.Point(60, 88);
+            this.labGuess.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labGuess.Name = "labGuess";
-            this.labGuess.Size = new System.Drawing.Size(612, 27);
+            this.labGuess.Size = new System.Drawing.Size(735, 34);
             this.labGuess.TabIndex = 0;
             this.labGuess.Text = "Please Select A Number Between 1 to 100!";
             // 
             // btnGuess
             // 
             this.btnGuess.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnGuess.Location = new System.Drawing.Point(179, 167);
+            this.btnGuess.Location = new System.Drawing.Point(239, 209);
+            this.btnGuess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGuess.Name = "btnGuess";
-            this.btnGuess.Size = new System.Drawing.Size(111, 49);
+            this.btnGuess.Size = new System.Drawing.Size(148, 61);
             this.btnGuess.TabIndex = 1;
             this.btnGuess.Text = "Guess";
             this.btnGuess.UseVisualStyleBackColor = true;
@@ -57,9 +59,10 @@
             // btnShowAns
             // 
             this.btnShowAns.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnShowAns.Location = new System.Drawing.Point(381, 167);
+            this.btnShowAns.Location = new System.Drawing.Point(508, 209);
+            this.btnShowAns.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowAns.Name = "btnShowAns";
-            this.btnShowAns.Size = new System.Drawing.Size(111, 49);
+            this.btnShowAns.Size = new System.Drawing.Size(148, 61);
             this.btnShowAns.TabIndex = 2;
             this.btnShowAns.Text = "Show Answer";
             this.btnShowAns.UseVisualStyleBackColor = true;
@@ -67,12 +70,13 @@
             // 
             // Hw_Guess
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(899, 353);
             this.Controls.Add(this.btnShowAns);
             this.Controls.Add(this.btnGuess);
             this.Controls.Add(this.labGuess);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Hw_Guess";
             this.Text = "Hw_Guess";
             this.Load += new System.EventHandler(this.Hw_Guess_Load);
