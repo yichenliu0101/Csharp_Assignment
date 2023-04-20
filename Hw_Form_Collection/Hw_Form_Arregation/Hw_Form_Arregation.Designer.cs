@@ -66,8 +66,9 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.BackgroundImage = global::Hw_Form_Arregation.Properties.Resources.dc88c8f8687d937ad6dcdbb82b3a4ca5;
-            this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.splitContainer1.Panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.splitContainer1.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer1.Panel1.BackgroundImage")));
+            this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.splitContainer1.Panel1.Controls.Add(this.label1);
             // 
             // splitContainer1.Panel2
@@ -116,7 +117,7 @@
             // 
             // splitContainer2.Panel2
             // 
-            this.splitContainer2.Panel2.BackgroundImage = global::Hw_Form_Arregation.Properties.Resources.AEz7ETx;
+            this.splitContainer2.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel2.BackgroundImage")));
             this.splitContainer2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer2.Size = new System.Drawing.Size(1152, 615);
             this.splitContainer2.SplitterDistance = 222;
@@ -289,7 +290,7 @@
             this.ClientSize = new System.Drawing.Size(1152, 710);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Hw_Form_Arregation";
-            this.Text = "Form1";
+            this.Text = "Homework";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);

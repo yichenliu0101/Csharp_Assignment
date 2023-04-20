@@ -207,7 +207,7 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label1);
             this.Name = "Hw_StructSaveGrades";
-            this.Text = "Hw_StructSaveGrades";
+            this.Text = "StructSaveGrades";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

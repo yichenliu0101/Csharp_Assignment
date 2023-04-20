@@ -303,7 +303,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Hw_Students_Grade_List";
-            this.Text = "Hw_Students_Grade_List";
+            this.Text = "StudentGradeSearch";
             this.Load += new System.EventHandler(this.Hw_Students_Grade_List_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

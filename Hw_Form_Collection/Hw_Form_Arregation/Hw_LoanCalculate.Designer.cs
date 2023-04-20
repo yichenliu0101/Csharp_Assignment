@@ -150,7 +150,7 @@
             this.btnReport.UseVisualStyleBackColor = true;
             this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
-            // Hw_Form_LoanCalculate
+            // Hw_LoanCalculate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -166,8 +166,8 @@
             this.Controls.Add(this.labTime);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.labTotal);
-            this.Name = "Hw_Form_LoanCalculate";
-            this.Text = "Form1";
+            this.Name = "Hw_LoanCalculate";
+            this.Text = "LoanCalculate";
             this.ResumeLayout(false);
             this.PerformLayout();
 

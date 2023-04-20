@@ -159,7 +159,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.labTime);
             this.Name = "Hw_Alarm";
-            this.Text = "Hw_Alarm";
+            this.Text = "Alarm";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

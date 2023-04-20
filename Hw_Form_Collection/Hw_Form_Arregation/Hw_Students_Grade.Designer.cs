@@ -48,10 +48,9 @@
             // txtMath
             // 
             this.txtMath.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtMath.Location = new System.Drawing.Point(117, 199);
-            this.txtMath.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMath.Location = new System.Drawing.Point(88, 159);
             this.txtMath.Name = "txtMath";
-            this.txtMath.Size = new System.Drawing.Size(93, 31);
+            this.txtMath.Size = new System.Drawing.Size(71, 27);
             this.txtMath.TabIndex = 15;
             this.txtMath.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -59,20 +58,18 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label4.Location = new System.Drawing.Point(33, 202);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(25, 162);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 20);
+            this.label4.Size = new System.Drawing.Size(43, 16);
             this.label4.TabIndex = 14;
             this.label4.Text = "數學:";
             // 
             // txtEnglish
             // 
             this.txtEnglish.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtEnglish.Location = new System.Drawing.Point(117, 139);
-            this.txtEnglish.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEnglish.Location = new System.Drawing.Point(88, 111);
             this.txtEnglish.Name = "txtEnglish";
-            this.txtEnglish.Size = new System.Drawing.Size(93, 31);
+            this.txtEnglish.Size = new System.Drawing.Size(71, 27);
             this.txtEnglish.TabIndex = 13;
             this.txtEnglish.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -80,20 +77,18 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(33, 142);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(25, 114);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 20);
+            this.label3.Size = new System.Drawing.Size(43, 16);
             this.label3.TabIndex = 12;
             this.label3.Text = "英文:";
             // 
             // txtChinese
             // 
             this.txtChinese.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtChinese.Location = new System.Drawing.Point(117, 75);
-            this.txtChinese.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtChinese.Location = new System.Drawing.Point(88, 60);
             this.txtChinese.Name = "txtChinese";
-            this.txtChinese.Size = new System.Drawing.Size(93, 31);
+            this.txtChinese.Size = new System.Drawing.Size(71, 27);
             this.txtChinese.TabIndex = 11;
             this.txtChinese.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -101,20 +96,18 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(33, 79);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(25, 63);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 20);
+            this.label2.Size = new System.Drawing.Size(43, 16);
             this.label2.TabIndex = 10;
             this.label2.Text = "國文:";
             // 
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtName.Location = new System.Drawing.Point(117, 15);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtName.Location = new System.Drawing.Point(88, 12);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(93, 31);
+            this.txtName.Size = new System.Drawing.Size(71, 27);
             this.txtName.TabIndex = 9;
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -122,19 +115,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(33, 19);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(25, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 20);
+            this.label1.Size = new System.Drawing.Size(43, 16);
             this.label1.TabIndex = 8;
             this.label1.Text = "姓名:";
             // 
             // btnAddStudent
             // 
-            this.btnAddStudent.Location = new System.Drawing.Point(37, 255);
-            this.btnAddStudent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddStudent.Location = new System.Drawing.Point(28, 204);
             this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(175, 36);
+            this.btnAddStudent.Size = new System.Drawing.Size(131, 29);
             this.btnAddStudent.TabIndex = 16;
             this.btnAddStudent.Text = "加入學生資料";
             this.btnAddStudent.UseVisualStyleBackColor = true;
@@ -142,10 +133,9 @@
             // 
             // btnRandomSave
             // 
-            this.btnRandomSave.Location = new System.Drawing.Point(37, 299);
-            this.btnRandomSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRandomSave.Location = new System.Drawing.Point(28, 239);
             this.btnRandomSave.Name = "btnRandomSave";
-            this.btnRandomSave.Size = new System.Drawing.Size(175, 36);
+            this.btnRandomSave.Size = new System.Drawing.Size(131, 29);
             this.btnRandomSave.TabIndex = 17;
             this.btnRandomSave.Text = "隨機儲存資料";
             this.btnRandomSave.UseVisualStyleBackColor = true;
@@ -154,10 +144,9 @@
             // btnCalculate
             // 
             this.btnCalculate.Enabled = false;
-            this.btnCalculate.Location = new System.Drawing.Point(37, 342);
-            this.btnCalculate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalculate.Location = new System.Drawing.Point(28, 274);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(175, 36);
+            this.btnCalculate.Size = new System.Drawing.Size(131, 29);
             this.btnCalculate.TabIndex = 18;
             this.btnCalculate.Text = "各科統計";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -165,10 +154,9 @@
             // 
             // btnResetAll
             // 
-            this.btnResetAll.Location = new System.Drawing.Point(37, 429);
-            this.btnResetAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnResetAll.Location = new System.Drawing.Point(28, 343);
             this.btnResetAll.Name = "btnResetAll";
-            this.btnResetAll.Size = new System.Drawing.Size(175, 36);
+            this.btnResetAll.Size = new System.Drawing.Size(131, 29);
             this.btnResetAll.TabIndex = 19;
             this.btnResetAll.Text = "重設所有資料";
             this.btnResetAll.UseVisualStyleBackColor = true;
@@ -176,10 +164,9 @@
             // 
             // btnRandomAdd20
             // 
-            this.btnRandomAdd20.Location = new System.Drawing.Point(37, 472);
-            this.btnRandomAdd20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRandomAdd20.Location = new System.Drawing.Point(28, 378);
             this.btnRandomAdd20.Name = "btnRandomAdd20";
-            this.btnRandomAdd20.Size = new System.Drawing.Size(175, 36);
+            this.btnRandomAdd20.Size = new System.Drawing.Size(131, 29);
             this.btnRandomAdd20.TabIndex = 20;
             this.btnRandomAdd20.Text = "隨機加入20筆資料";
             this.btnRandomAdd20.UseVisualStyleBackColor = true;
@@ -193,11 +180,10 @@
             this.listViewAll.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.listViewAll.HideSelection = false;
             this.listViewAll.LabelWrap = false;
-            this.listViewAll.Location = new System.Drawing.Point(283, 16);
-            this.listViewAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listViewAll.Location = new System.Drawing.Point(212, 13);
             this.listViewAll.MultiSelect = false;
             this.listViewAll.Name = "listViewAll";
-            this.listViewAll.Size = new System.Drawing.Size(587, 363);
+            this.listViewAll.Size = new System.Drawing.Size(441, 291);
             this.listViewAll.TabIndex = 21;
             this.listViewAll.UseCompatibleStateImageBehavior = false;
             this.listViewAll.View = System.Windows.Forms.View.Details;
@@ -207,19 +193,18 @@
             this.listViewAvg.BackColor = System.Drawing.SystemColors.Control;
             this.listViewAvg.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
             this.listViewAvg.HideSelection = false;
-            this.listViewAvg.Location = new System.Drawing.Point(283, 388);
-            this.listViewAvg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listViewAvg.Location = new System.Drawing.Point(212, 310);
             this.listViewAvg.Name = "listViewAvg";
-            this.listViewAvg.Size = new System.Drawing.Size(587, 120);
+            this.listViewAvg.Size = new System.Drawing.Size(441, 97);
             this.listViewAvg.TabIndex = 22;
             this.listViewAvg.UseCompatibleStateImageBehavior = false;
             this.listViewAvg.View = System.Windows.Forms.View.Details;
             // 
             // Hw_Students_Grade
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(929, 562);
+            this.ClientSize = new System.Drawing.Size(697, 450);
             this.Controls.Add(this.listViewAvg);
             this.Controls.Add(this.listViewAll);
             this.Controls.Add(this.btnRandomAdd20);
@@ -235,9 +220,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Hw_Students_Grade";
-            this.Text = "Hw_Students_Grade";
+            this.Text = "StudentsGrade";
             this.Load += new System.EventHandler(this.Hw_Students_Grade_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

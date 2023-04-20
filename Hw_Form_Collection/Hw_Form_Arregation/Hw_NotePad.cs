@@ -20,17 +20,18 @@ namespace Hw_Form_Arregation
         }
         private ColorDialog colorDialog = new ColorDialog(); 
         private FontDialog fontDialog = new FontDialog();
+        private SaveFileDialog saveFileDialog = new SaveFileDialog();
+        private OpenFileDialog ofd = new OpenFileDialog();
+        private string SaveFilePath;//儲存檔案Path
 
         private void IconOpenFile_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.InitialDirectory = "C:\\";
+        { 
             if(ofd.ShowDialog() == DialogResult.OK)
             {
                 this.richTextBox1.Text =File.ReadAllText(ofd.FileName);
-                this.Text = ofd.FileName;
+                this.Text = Path.GetFileName(ofd.FileName);
+                SaveFilePath = ofd.FileName;
             }
-            ofd = null;
         }
 
         private void btnOpenFIle_Click(object sender, EventArgs e)
@@ -149,6 +150,57 @@ namespace Hw_Form_Arregation
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+        private void btnUndo_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Undo();
+        }
+        private void btnRedo(object sender, EventArgs e)
+        {
+            richTextBox1.Redo();
+        }
+
+        private void iconNewOne(object sender, EventArgs e)
+        {
+            btnNewOne(sender, e);
+        }
+
+        private void btnNewOne(object sender, EventArgs e)
+        {
+            this.Text = "Notepad";
+            richTextBox1.Clear() ;
+        }
+
+        private void btnNewSave(object sender, EventArgs e)
+        {
+            if(saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                File.WriteAllText(saveFileDialog.FileName, richTextBox1.Text, Encoding.Default);
+                SaveFilePath = saveFileDialog.FileName;
+                this.Text = Path.GetFileName(saveFileDialog.FileName);
+            }
+        }
+
+        private void btnSave(object sender, EventArgs e)
+        {
+            if(this.Text == "Notepad")
+            {
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    File.WriteAllText(saveFileDialog.FileName, richTextBox1.Text, Encoding.Default);
+                    SaveFilePath = saveFileDialog.FileName;
+                    this.Text = Path.GetFileName(saveFileDialog.FileName);
+                }
+            }
+            else
+            {
+                File.WriteAllText(SaveFilePath, richTextBox1.Text, Encoding.Default);
+            }
+        }
+
+        private void iconSave(object sender, EventArgs e)
+        {
+            btnSave(sender, e);
         }
     }
 }
