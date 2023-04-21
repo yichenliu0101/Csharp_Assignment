@@ -14,7 +14,9 @@ namespace Hw_Form_Arregation
     {
         public delegate void NumReturn(int Num);//宣告委派
         public NumReturn EventReturn;
-        public int Ans;
+        public int Ans { get; set; }
+        public int MaxNumber { get; set; }
+        public int MinNumber { get; set; }
         public Hw_GuessNum_Delegate()
         {
             InitializeComponent();
@@ -37,6 +39,7 @@ namespace Hw_Form_Arregation
             }
             catch (Exception ex)
             {
+                txtInput.Text = "";
                 txtInput.Focus();
             }
 
@@ -47,5 +50,6 @@ namespace Hw_Form_Arregation
             DialogResult = DialogResult.Cancel;
             this.Close();
         }
+
     }
 }

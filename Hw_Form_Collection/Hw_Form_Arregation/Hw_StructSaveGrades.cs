@@ -22,17 +22,37 @@ namespace Hw_Form_Arregation
         struct Grades//創建Struct 欄位有名稱跟成績
         {
             public string Name { get; set; }
-            public int Grade { get; set; }
+            public uint Grade { get; set; }
             
         }
         Grades ChineseScore, EnglishScore, MathScore, MaxGrade, MinGrade;//創建國文、英文、數學、最大及最小的Struct
         private void btnSave_Click(object sender, EventArgs e)
         {
             //將TextBox內容傳進Name及Struct的Grade欄位中
-            Name = txtName.Text;
-            ChineseScore.Grade = int.Parse(txtChinese.Text);
-            EnglishScore.Grade = int.Parse(txtEnglish.Text);
-            MathScore.Grade = int.Parse(txtMath.Text);
+            try
+            {
+                Name = txtName.Text;
+                ChineseScore.Grade = uint.Parse(txtChinese.Text);
+                EnglishScore.Grade = uint.Parse(txtEnglish.Text);
+                MathScore.Grade = uint.Parse(txtMath.Text);
+                if (ChineseScore.Grade > 100 || EnglishScore.Grade > 100 || MathScore.Grade > 100)
+                {
+                    throw new ArgumentOutOfRangeException();
+                }
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                MessageBox.Show("請輸入0~100的數字");
+                txtChinese.Text = "";
+                txtEnglish.Text = "";
+                txtMath.Text = "";
+                txtChinese.Focus();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("請輸入數字");
+            }
+            
         }
 
         private void btnShowSave_Click(object sender, EventArgs e)

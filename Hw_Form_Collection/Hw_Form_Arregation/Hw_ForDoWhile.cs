@@ -249,7 +249,7 @@ namespace Hw_Form_Arregation
                 {
                     Sum += i;
                 }
-                labShow.Text = $"{Start}到{End}\n加總為{Sum}";
+                labShow.Text = $"{Start}到{End}相隔{Step-1}\n加總為{Sum}";
             }
             catch (Exception ex)
             {
@@ -272,7 +272,7 @@ namespace Hw_Form_Arregation
                     Sum += SaveStart;
                     SaveStart += Step;
                 }
-                labShow.Text = $"{Start}到{End}\n加總為{Sum}";
+                labShow.Text = $"{Start}到{End}相隔{Step - 1}\n加總為{Sum}";
             }
             catch (Exception ex)
             {
@@ -296,7 +296,7 @@ namespace Hw_Form_Arregation
                     Sum += SaveStart;
                     SaveStart += Step;
                 } while (SaveStart <= End);
-                labShow.Text = $"{Start}到{End}\n加總為{Sum}";
+                labShow.Text = $"{Start}到{End}相隔{Step - 1}\n加總為{Sum}";
             }
             catch (Exception ex)
             {
@@ -366,12 +366,12 @@ namespace Hw_Form_Arregation
             }
             return ans;
         }
-
+        static Random Lott = new Random(Guid.NewGuid().GetHashCode());
         private void btnLottery_Click(object sender, EventArgs e)
         {
             labShow.Text = "樂透號碼\n";
             int[] Lottery = new int[6];
-            Random Lott = new Random(Guid.NewGuid().GetHashCode());
+            
             for (int i = 0; i < 6; i++)
             {
                 Lottery[i] = Lott.Next(1, 49);

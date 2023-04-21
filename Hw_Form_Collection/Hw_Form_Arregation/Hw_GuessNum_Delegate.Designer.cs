@@ -37,10 +37,9 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnCancel.Location = new System.Drawing.Point(352, 80);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancel.Location = new System.Drawing.Point(264, 64);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(100, 29);
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 7;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -49,10 +48,9 @@
             // btnEnter
             // 
             this.btnEnter.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnEnter.Location = new System.Drawing.Point(352, 44);
-            this.btnEnter.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEnter.Location = new System.Drawing.Point(264, 35);
             this.btnEnter.Name = "btnEnter";
-            this.btnEnter.Size = new System.Drawing.Size(100, 29);
+            this.btnEnter.Size = new System.Drawing.Size(75, 23);
             this.btnEnter.TabIndex = 6;
             this.btnEnter.Text = "Enter";
             this.btnEnter.UseVisualStyleBackColor = true;
@@ -60,32 +58,31 @@
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(61, 130);
-            this.txtInput.Margin = new System.Windows.Forms.Padding(4);
+            this.txtInput.Location = new System.Drawing.Point(46, 104);
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(389, 25);
+            this.txtInput.Size = new System.Drawing.Size(293, 22);
             this.txtInput.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("新細明體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(56, 70);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(42, 56);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(238, 24);
+            this.label1.Size = new System.Drawing.Size(196, 19);
             this.label1.TabIndex = 4;
             this.label1.Text = "Please input a number.";
             // 
             // Hw_GuessNum_Delegate
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 186);
+            this.ClientSize = new System.Drawing.Size(376, 149);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnEnter);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Hw_GuessNum_Delegate";

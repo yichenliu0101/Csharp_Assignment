@@ -37,11 +37,11 @@ namespace Hw_Form_Arregation
         struct Grades//創建Struct 欄位有名稱跟成績
         {
             public string Name { get; set; }
-            public int Grade { get; set; }
-            public int Total { get; set; }
-            public int Avg { get; set; }
-            public int Max { get; set; }
-            public int Min { get; set; }
+            public uint Grade { get; set; }
+            public uint Total { get; set; }
+            public uint Avg { get; set; }
+            public uint Max { get; set; }
+            public uint Min { get; set; }
         }
         private int RandomIndex = 1;
 
@@ -54,41 +54,63 @@ namespace Hw_Form_Arregation
         #region Click Event
         private void btnAddStudent_Click(object sender, EventArgs e)
         {
-            if(txtName.Text == "")
+            try
             {
-                MessageBox.Show("請輸入姓名");
-            }
-            else if(txtChinese.Text == "")
-            {
-                MessageBox.Show("請輸入國文成績");
-            }
-            else if (txtEnglish.Text == "")
-            {
-                MessageBox.Show("請輸入英文成績");
-            }
-            else if (txtMath.Text == "")
-            {
-                MessageBox.Show("請輸入數學成績");
-            }
-            else
-            {
-                btnCalculate.Enabled = true;
-                Name = txtName.Text;
-                ChineseScore.Name = "國文";
-                ChineseScore.Grade = Convert.ToInt32(txtChinese.Text);
-                EnglishScore.Name = "英文";
-                EnglishScore.Grade = Convert.ToInt32(txtEnglish.Text);
-                MathScore.Name = "數學";
-                MathScore.Grade = Convert.ToInt32(txtMath.Text);
-                GetMaxGrade(ChineseScore, EnglishScore, MathScore);
-                GetMinGrade(ChineseScore, EnglishScore, MathScore);
-                double ScoresAvg; 
-                string[] items = { txtName.Text, txtChinese.Text, txtEnglish.Text, txtMath.Text, 
+                if (txtName.Text == "")
+                {
+                    MessageBox.Show("請輸入姓名");
+                }
+                else if (txtChinese.Text == "")
+                {
+                    MessageBox.Show("請輸入國文成績");
+                }
+                else if (txtEnglish.Text == "")
+                {
+                    MessageBox.Show("請輸入英文成績");
+                }
+                else if (txtMath.Text == "")
+                {
+                    MessageBox.Show("請輸入數學成績");
+                }
+                else
+                {
+                    Name = txtName.Text;
+                    ChineseScore.Name = "國文";
+                    ChineseScore.Grade = Convert.ToUInt32(txtChinese.Text);
+                    EnglishScore.Name = "英文";
+                    EnglishScore.Grade = Convert.ToUInt32(txtEnglish.Text);
+                    MathScore.Name = "數學";
+                    MathScore.Grade = Convert.ToUInt32(txtMath.Text);
+                    if (ChineseScore.Grade > 100 || EnglishScore.Grade > 100 || MathScore.Grade > 100)
+                    {
+                        throw new ArgumentOutOfRangeException();
+                    }
+                    GetMaxGrade(ChineseScore, EnglishScore, MathScore);
+                    GetMinGrade(ChineseScore, EnglishScore, MathScore);
+                    double ScoresAvg;
+                    string[] items = { txtName.Text, txtChinese.Text, txtEnglish.Text, txtMath.Text,
                                     GetTotal(ChineseScore, EnglishScore, MathScore, out ScoresAvg).ToString(),
                                      ScoresAvg.ToString(), $"{MinGrade.Name}{MinGrade.Grade}", $"{MaxGrade.Name}{MaxGrade.Grade}" };
-                var ListViewItems = new ListViewItem(items);
-                listViewAll.Items.Add(ListViewItems);
-
+                    var ListViewItems = new ListViewItem(items);
+                    listViewAll.Items.Add(ListViewItems);
+                    btnCalculate.Enabled = true;
+                }
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                MessageBox.Show("請輸入0~100的數字");
+                txtChinese.Text = "";
+                txtEnglish.Text = "";
+                txtMath.Text = "";
+                txtChinese.Focus();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("請輸入數字");
+                txtChinese.Text = "";
+                txtEnglish.Text = "";
+                txtMath.Text = "";
+                txtChinese.Focus();
             }
         }
         private void btnRandomSave_Click(object sender, EventArgs e)
@@ -98,11 +120,11 @@ namespace Hw_Form_Arregation
             Random EnglishRandom = new Random(Guid.NewGuid().GetHashCode());
             Random MathRandom = new Random(Guid.NewGuid().GetHashCode());
             ChineseScore.Name = "國文";
-            ChineseScore.Grade = ChineseRandom.Next(0, 100);
+            ChineseScore.Grade = Convert.ToUInt32(ChineseRandom.Next(0, 100));
             EnglishScore.Name = "英文";
-            EnglishScore.Grade = EnglishRandom.Next(0, 100);
+            EnglishScore.Grade = Convert.ToUInt32(EnglishRandom.Next(0, 100));
             MathScore.Name = "數學";
-            MathScore.Grade = MathRandom.Next(0, 100);
+            MathScore.Grade = Convert.ToUInt32(MathRandom.Next(0, 100));
             GetMaxGrade(ChineseScore, EnglishScore, MathScore);
             GetMinGrade(ChineseScore, EnglishScore, MathScore);
             double ScoresAvg;
@@ -121,21 +143,21 @@ namespace Hw_Form_Arregation
             MathScore.Min = 100;
             for (int i = 0; i < listViewAll.Items.Count; i++)
             {
-                ChineseScore.Total += int.Parse(listViewAll.Items[i].SubItems[1].Text);
-                EnglishScore.Total += int.Parse(listViewAll.Items[i].SubItems[2].Text);
-                MathScore.Total += int.Parse(listViewAll.Items[i].SubItems[3].Text);
+                ChineseScore.Total += uint.Parse(listViewAll.Items[i].SubItems[1].Text);
+                EnglishScore.Total += uint.Parse(listViewAll.Items[i].SubItems[2].Text);
+                MathScore.Total += uint.Parse(listViewAll.Items[i].SubItems[3].Text);
 
-                ChineseScore.Max = Math.Max(int.Parse(listViewAll.Items[i].SubItems[1].Text), ChineseScore.Max);
-                EnglishScore.Max = Math.Max(int.Parse(listViewAll.Items[i].SubItems[2].Text), EnglishScore.Max);
-                MathScore.Max = Math.Max(int.Parse(listViewAll.Items[i].SubItems[3].Text), MathScore.Max);
+                ChineseScore.Max = Math.Max(uint.Parse(listViewAll.Items[i].SubItems[1].Text), ChineseScore.Max);
+                EnglishScore.Max = Math.Max(uint.Parse(listViewAll.Items[i].SubItems[2].Text), EnglishScore.Max);
+                MathScore.Max = Math.Max(uint.Parse(listViewAll.Items[i].SubItems[3].Text), MathScore.Max);
 
-                ChineseScore.Min = Math.Min(int.Parse(listViewAll.Items[i].SubItems[1].Text), ChineseScore.Min);
-                EnglishScore.Min = Math.Min(int.Parse(listViewAll.Items[i].SubItems[2].Text), EnglishScore.Min);
-                MathScore.Min = Math.Min(int.Parse(listViewAll.Items[i].SubItems[3].Text), MathScore.Min);
+                ChineseScore.Min = Math.Min(uint.Parse(listViewAll.Items[i].SubItems[1].Text), ChineseScore.Min);
+                EnglishScore.Min = Math.Min(uint.Parse(listViewAll.Items[i].SubItems[2].Text), EnglishScore.Min);
+                MathScore.Min = Math.Min(uint.Parse(listViewAll.Items[i].SubItems[3].Text), MathScore.Min);
             }
-            ChineseScore.Avg = ChineseScore.Total / listViewAll.Items.Count;
-            EnglishScore.Avg = EnglishScore.Total / listViewAll.Items.Count;
-            MathScore.Avg = ChineseScore.Total / listViewAll.Items.Count;
+            ChineseScore.Avg = ChineseScore.Total /Convert.ToUInt32(listViewAll.Items.Count);
+            EnglishScore.Avg = EnglishScore.Total / Convert.ToUInt32(listViewAll.Items.Count);
+            MathScore.Avg = ChineseScore.Total / Convert.ToUInt32(listViewAll.Items.Count);
             string[] items1 = { "總分", Convert.ToString(ChineseScore.Total), Convert.ToString(EnglishScore.Total), Convert.ToString(MathScore.Total) };
             string[] items2 = { "平均", Convert.ToString(ChineseScore.Avg), Convert.ToString(EnglishScore.Avg), Convert.ToString(MathScore.Avg) };
             string[] items3 = { "最高分", Convert.ToString(ChineseScore.Max), Convert.ToString(EnglishScore.Max), Convert.ToString(MathScore.Max) };
@@ -187,9 +209,9 @@ namespace Hw_Form_Arregation
             MathScore.Name = "數學";
             for(int i = 0; i < 20; i++)
             {
-                ChineseScore.Grade = ChineseRandom.Next(0, 100);
-                EnglishScore.Grade = EnglishRandom.Next(0, 100);
-                MathScore.Grade = MathRandom.Next(0, 100);
+                ChineseScore.Grade = Convert.ToUInt32(ChineseRandom.Next(0, 100));
+                EnglishScore.Grade = Convert.ToUInt32(EnglishRandom.Next(0, 100));
+                MathScore.Grade = Convert.ToUInt32(MathRandom.Next(0, 100));
                 GetMaxGrade(ChineseScore, EnglishScore, MathScore);
                 GetMinGrade(ChineseScore, EnglishScore, MathScore);
                 double ScoresAvg;
@@ -234,9 +256,9 @@ namespace Hw_Form_Arregation
                 MinGrade = MathScore;
             }
         }
-        int GetTotal(Grades ChineseScore, Grades EnglishScore, Grades MathScore, out double Avg)
+        uint GetTotal(Grades ChineseScore, Grades EnglishScore, Grades MathScore, out double Avg)
         {
-            int Total = ChineseScore.Grade + EnglishScore.Grade + MathScore.Grade;
+            uint Total = ChineseScore.Grade + EnglishScore.Grade + MathScore.Grade;
             Avg = Math.Round(Convert.ToDouble(Total) / 3, 1);
             return Total;
         }

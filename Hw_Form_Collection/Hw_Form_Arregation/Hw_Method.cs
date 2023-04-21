@@ -21,11 +21,7 @@ namespace Hw_Form_Arregation
         public string[] arr0711_Str = new string[] { "Mother張", "Emma", "迪克蕭", "J40", "Candy", "Coconut", "MotherFucker" };
         private void btnOddOrEven_Click(object sender, EventArgs e)
         {
-            if (txtNum.Text =="")
-            {
-                MessageBox.Show("請輸入數字");
-            }
-            else
+            try
             {
                 int Num = int.Parse(txtNum.Text);
                 if (Num % 2 == 0)
@@ -36,6 +32,10 @@ namespace Hw_Form_Arregation
                 {
                     labShow.Text = $"輸入的數 {Num}為 奇數";
                 }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("請輸入數字");
             }
         }
 

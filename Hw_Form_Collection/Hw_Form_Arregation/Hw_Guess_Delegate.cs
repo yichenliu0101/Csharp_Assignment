@@ -39,6 +39,8 @@ namespace Hw_Form_Arregation
             Hw_GuessNum_Delegate Guess = new Hw_GuessNum_Delegate();
             Guess.EventReturn = new Hw_GuessNum_Delegate.NumReturn(EventReturn);
             Guess.Ans = NumAns;
+            Guess.MaxNumber = MaxNumber;
+            Guess.MinNumber = MinNumber;
             Guess.ShowDialog();
             if (Guess.DialogResult == DialogResult.Cancel)
             {
