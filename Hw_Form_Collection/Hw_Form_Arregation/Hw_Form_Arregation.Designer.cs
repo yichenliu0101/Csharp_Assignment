@@ -128,6 +128,8 @@
             // 
             // btnAlarm
             // 
+            this.btnAlarm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAlarm.BackColor = System.Drawing.Color.AliceBlue;
             this.btnAlarm.Location = new System.Drawing.Point(23, 433);
             this.btnAlarm.Name = "btnAlarm";
@@ -139,6 +141,8 @@
             // 
             // btnGuess
             // 
+            this.btnGuess.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnGuess.BackColor = System.Drawing.Color.AliceBlue;
             this.btnGuess.Location = new System.Drawing.Point(23, 405);
             this.btnGuess.Name = "btnGuess";
@@ -150,6 +154,8 @@
             // 
             // btnPictureViewer
             // 
+            this.btnPictureViewer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPictureViewer.BackColor = System.Drawing.Color.AliceBlue;
             this.btnPictureViewer.Location = new System.Drawing.Point(23, 377);
             this.btnPictureViewer.Name = "btnPictureViewer";
@@ -161,6 +167,8 @@
             // 
             // btnPainter
             // 
+            this.btnPainter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPainter.BackColor = System.Drawing.Color.AliceBlue;
             this.btnPainter.Location = new System.Drawing.Point(23, 349);
             this.btnPainter.Name = "btnPainter";
@@ -172,6 +180,8 @@
             // 
             // btnNotepad
             // 
+            this.btnNotepad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNotepad.BackColor = System.Drawing.Color.AliceBlue;
             this.btnNotepad.Location = new System.Drawing.Point(23, 321);
             this.btnNotepad.Name = "btnNotepad";
@@ -183,6 +193,8 @@
             // 
             // btnScreenSaver
             // 
+            this.btnScreenSaver.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnScreenSaver.BackColor = System.Drawing.Color.AliceBlue;
             this.btnScreenSaver.Location = new System.Drawing.Point(23, 293);
             this.btnScreenSaver.Name = "btnScreenSaver";
@@ -194,6 +206,8 @@
             // 
             // BtnXO
             // 
+            this.BtnXO.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnXO.BackColor = System.Drawing.Color.AliceBlue;
             this.BtnXO.Location = new System.Drawing.Point(23, 265);
             this.BtnXO.Name = "BtnXO";
@@ -205,6 +219,8 @@
             // 
             // btnFor
             // 
+            this.btnFor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnFor.BackColor = System.Drawing.Color.AliceBlue;
             this.btnFor.Location = new System.Drawing.Point(23, 237);
             this.btnFor.Name = "btnFor";
@@ -216,6 +232,8 @@
             // 
             // btnCalculate
             // 
+            this.btnCalculate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCalculate.BackColor = System.Drawing.Color.AliceBlue;
             this.btnCalculate.Location = new System.Drawing.Point(23, 209);
             this.btnCalculate.Name = "btnCalculate";
@@ -227,6 +245,8 @@
             // 
             // btnMethod
             // 
+            this.btnMethod.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMethod.BackColor = System.Drawing.Color.AliceBlue;
             this.btnMethod.Location = new System.Drawing.Point(23, 181);
             this.btnMethod.Name = "btnMethod";
@@ -238,6 +258,8 @@
             // 
             // btn_Save_List
             // 
+            this.btn_Save_List.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Save_List.BackColor = System.Drawing.Color.AliceBlue;
             this.btn_Save_List.Location = new System.Drawing.Point(23, 153);
             this.btn_Save_List.Name = "btn_Save_List";
@@ -249,6 +271,8 @@
             // 
             // btnSave
             // 
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSave.BackColor = System.Drawing.Color.AliceBlue;
             this.btnSave.Location = new System.Drawing.Point(23, 125);
             this.btnSave.Name = "btnSave";
@@ -260,6 +284,8 @@
             // 
             // btnStruct
             // 
+            this.btnStruct.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStruct.BackColor = System.Drawing.Color.AliceBlue;
             this.btnStruct.Location = new System.Drawing.Point(23, 97);
             this.btnStruct.Name = "btnStruct";
@@ -271,6 +297,8 @@
             // 
             // btnPos
             // 
+            this.btnPos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPos.BackColor = System.Drawing.Color.AliceBlue;
             this.btnPos.Location = new System.Drawing.Point(23, 69);
             this.btnPos.Name = "btnPos";
@@ -282,6 +310,8 @@
             // 
             // btnHw02
             // 
+            this.btnHw02.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnHw02.BackColor = System.Drawing.Color.AliceBlue;
             this.btnHw02.Location = new System.Drawing.Point(23, 41);
             this.btnHw02.Name = "btnHw02";
@@ -293,6 +323,8 @@
             // 
             // btnHw01
             // 
+            this.btnHw01.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnHw01.BackColor = System.Drawing.Color.AliceBlue;
             this.btnHw01.Location = new System.Drawing.Point(23, 13);
             this.btnHw01.Name = "btnHw01";
