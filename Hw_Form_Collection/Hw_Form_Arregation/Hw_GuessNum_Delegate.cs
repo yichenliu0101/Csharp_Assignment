@@ -13,7 +13,7 @@ namespace Hw_Form_Arregation
     public partial class Hw_GuessNum_Delegate : Form
     {
         public delegate void NumReturn(int Num);//宣告委派
-        public NumReturn EventReturn;
+        public NumReturn EventReturn { get; set; }
         public int Ans { get; set; }
         public int MaxNumber { get; set; }
         public int MinNumber { get; set; }
